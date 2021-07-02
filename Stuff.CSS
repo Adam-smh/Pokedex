@@ -105,11 +105,8 @@ body {
 .something {
   width: 30vw;
   height: 80vh;
-
   border-radius: 5%;
-
-  background: black;
-
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,6 +116,8 @@ body {
 /* pokemon image */
 img {
   width: 18vw;
+  background: #ba181b;
+  border-radius: 50%;
 }
 
 .outer.active {
@@ -126,10 +125,12 @@ img {
 }
 
 .card-details {
-  color: #d3d3d3;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 128%;
-  padding-top: 25%;
+  font-weight: 900;
+  margin-top: 25%;
+  background: #ffffff;
 }
 
 button {
@@ -162,6 +163,17 @@ i:hover {
     left: 2%;
   }
 
+  .something {
+    width: 40vw;
+    height: 80vh;
+    border-radius: 5%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .circle {
     right: 26%;
     position: absolute;
@@ -186,7 +198,6 @@ i:hover {
     width: 60vw;
     height: 80vh;
     border-radius: 5%;
-    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
